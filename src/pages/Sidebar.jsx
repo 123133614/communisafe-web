@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import multiico from '../images/multiico.png';
+import multiico from '../images/safe.png';
 
 export default function Sidebar({ active }) {
   return (
@@ -21,6 +21,8 @@ export default function Sidebar({ active }) {
     </div>
   );
 }
+
+
 
 function SidebarLink({ to, label, active }) {
   return (
