@@ -223,7 +223,7 @@ export default function CommunityAnnouncements() {
           <FiMenu size={24} />
         </button>
         <h1 className="text-xl font-semibold text-green-600">
-          Community Announcement
+          Community Announcements
         </h1>
         <div className="flex gap-2 items-center">
           <input
